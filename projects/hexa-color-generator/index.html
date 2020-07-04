@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hexa Color Code Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <span class="project-title">#quarantineproject</span>
+  </header>
+  <div class="container">
+    <h3 class="title" id="title">Hexa Color Code Generator</h3>
+    <div class="content">
+      <span class="result-code" id="result-code" value="">#result code will be here</span>
+      <button class="generate-btn" id="generate-btn">Klik to Generate</button>
+    </div>
+    <div class="menu">
+      <label for="transparent" class="label-check">Include transparent ?
+        <input type="checkbox" name="transparent" id="transparent">
+        <span class="transparent"></span>
+      </label>
+      <button class="copy-btn" id="copy" disabled>Copy to Clipboard</button>
+      <span class="info" id="info"></span>
+    </div>
+    <div class="sidebar-right">
+      <button class="social open">◁</button>
+      <button class="social close">▷</button>
+      <ul class="social-container">
+        <li class="social-item">
+          <a href="https://web.facebook.com/dennisthandy" target="_blank" class="social-link">
+            <img src="images/facebook-icon.svg" alt="fb" class="icon">
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.github.com/dennisthandy" target="_blank" class="social-link">
+            <img src="images/github-icon.svg" alt="github" class="icon">
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="https://www.instagram.com/dennisthandy/" target="_blank" class="social-link">
+            <img src="images/instagram-icon.svg" alt="ig" class="icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <span class="text-one">Made with</span>
+    <span class="love"></span>
+    <span class="text-two"> by <span class="author">Dennis Thandy</span></span>
+  </footer>
+  <!-- script -->
+  <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
